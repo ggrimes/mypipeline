@@ -292,5 +292,22 @@
         {
             "$ref": "#/definitions/generic_options"
         }
-    ]
+    ],
+    "properties": {
+        "adapters": {
+            "type": "string",
+            "description": "This is adapters",
+            "fa_icon": "fab fa-accessible-icon"
+        },
+        "save_trimmed_fail": {
+            "type": "boolean",
+            "description": "Hellow world",
+            "fa_icon": "fas fa-adjust"
+        },
+        "save_merged": {
+            "type": "boolean",
+            "description": "hellow ngain",
+            "fa_icon": "fab fa-affiliatetheme"
+        }
+    }
 }
